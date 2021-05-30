@@ -1,0 +1,46 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: aqua;
+}
+    canvas {
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+
+@keyframes example {
+    from {box-shadow: 20px 20px 68px white;}
+    to {box-shadow: 20px 20px 68px rgb(106, 1, 155);} 
+}
+
+body {
+    background: url("background_image.jpeg");
+    font-family: 'KoHo', sans-serif;
+}
+
+.myClass {
+    background-color: yellow;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.myOtherClass {
+    background-color: lightyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    color: red;
+    font-size: large;
+}
